@@ -1,0 +1,118 @@
+
+
+.bmi {
+    display: flex;
+    flex-direction: column;
+    background-color: #E53849;
+    border-radius: 22px;
+    color: #f4f6f7;
+    margin-left: 30px;
+    box-shadow: #f4f6f7;
+    height: 500px;
+    padding-top: 15px;
+  }
+.bmi h1{
+    text-align: center;
+}  
+.Height {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    font-family: Oswald;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .Weight {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    font-family: Oswald;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .Weight input{
+     border-radius: 30px;
+     margin-left: 20px;
+     padding: 20px;
+     font-size: 18px;
+     height: 30px;
+  }
+ 
+  .Height input{
+    border-radius: 30px;
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 18px;
+    height: 30px;
+ }
+  .dimensions{
+      font-weight: 400;
+      font-size: 30px;
+      padding: 10px;
+  }
+
+  
+  .btn {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+  }
+  
+  button {
+    background-color: linear-gradient(135deg, #6a5acd, #836fff);
+    color: #1b333e;
+    font-size: 25px;
+    padding: 10px;
+    border: #f4f6f7;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  }
+  
+  .bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+
+  }
+  .alert-msg{
+     text-align: center;
+     font-family: 'Courier New', Courier, monospace;
+     letter-spacing: 2px;
+     font-weight: 400;
+  }
+  .result {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;   /* aligns text/content to left */
+    margin-left: 20px;
+    margin-top: 10px;  
+    padding: 10px 0;
+           /* little spacing from the left side */
+  }
+.res p{
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+.res{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.res span{
+  font-size: 30px;
+  letter-spacing: 2px;
+}

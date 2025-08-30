@@ -1,0 +1,25 @@
+/* @import "tailwindcss"; */
+body{
+  /* background: linear-gradient(90deg,rgb(200,230,240),rgb(240,230,200),rgb(180,170,250)); */
+  background: linear-gradient(90deg,rgba(200,230,240,0.6),
+  rgba(240,230,200,0.6),
+  rgba(180,170,250,0.6));
+}
+
+.header{
+ text-align: center;
+  font-size: 40px;
+  color:  #5b548a;
+  font-family: 'Nunito ' ;
+  margin:20px auto;
+}
+.apps1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 20px;              /* spacing between cards */
+  width: 95%;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+

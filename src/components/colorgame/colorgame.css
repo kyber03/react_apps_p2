@@ -1,0 +1,51 @@
+.add-color h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+.add-color{
+    border: 1px solid #ccc;  
+  border-radius: 12px;    
+  height: auto;    
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+  padding-top: 10px;
+  background-color: rgb(70,70,100);
+}
+
+.color-add {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    padding: 5px;
+}
+
+.color-add input{
+    height: 30px;
+    width:60%;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.color-add button{
+     border: none;
+     border-radius: 10px;
+     height: 30px;
+     padding: 5px;
+     background-color: skyblue;
+     font-size: 18px;
+     text-align: center;
+     width: 100px;
+     font-weight: 600;
+}
+
+.final{
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
