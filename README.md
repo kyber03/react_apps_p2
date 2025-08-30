@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -67,3 +68,7 @@ export default tseslint.config([
   },
 ])
 ```
+=======
+# react_apps_part2
+BMI Calculator(basic rendering and functionalities), Weather(API), Colorgame(Basic props handling)
+>>>>>>> 84796bb7d765d36ec4844bbaa796c9e2d75563cc
